@@ -1,0 +1,818 @@
+{
+  "app": {
+    "name": "TypeCSF",
+    "tagline": "Learn Computer Science while you learn to type.",
+    "docTitle": "TypeCSF - Learn Computer Science while you type",
+    "docDescription": "TypeCSF is a free typing trainer that teaches Computer Science fundamentals. 30 lessons, a 24-page handbook, practice, games and quizzes in English, Dari and Pashto. Works offline.",
+    "loading": "Loading…",
+    "version": "Version {{v}}"
+  },
+  "units": {
+    "sec": "sec",
+    "min": "min",
+    "h": "h",
+    "secShort": "s",
+    "wpm": "wpm",
+    "chars": "characters",
+    "pages": "pages"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "main": "Main navigation",
+    "home": "Home",
+    "learn": "Learn",
+    "practice": "Practice",
+    "games": "Games",
+    "quiz": "Quiz",
+    "dashboard": "Dashboard",
+    "about": "Developer",
+    "contact": "Suggestions",
+    "settings": "Settings",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "openLessons": "Open lesson list",
+    "closeLessons": "Close lesson list",
+    "brand": "TypeCSF home",
+    "lessonsDone": "Lessons completed"
+  },
+  "lang": {
+    "label": "Language",
+    "switch": "Change language",
+    "en": "English",
+    "fa": "Dari",
+    "ps": "Pashto",
+    "current": "Current language: {{name}}"
+  },
+  "tools": {
+    "keyboard": "On-screen keyboard",
+    "sound": "Typing sounds",
+    "theme": "Switch light or dark theme",
+    "themeShort": "Theme"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "dismiss": "Dismiss",
+    "close": "Close",
+    "yes": "Yes",
+    "back": "Back",
+    "learnMore": "Learn more",
+    "startLesson": "Start the first lesson",
+    "optional": "optional",
+    "required": "required",
+    "loading": "Loading…",
+    "none": "—"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "book": "Book",
+    "practice": "Practice",
+    "game": "Game",
+    "challenge": "Challenge",
+    "sprint": "Sprint",
+    "precision": "Precision",
+    "code": "Code",
+    "daily": "Daily"
+  },
+  "fingers": {
+    "l-pinky": "left pinky",
+    "l-ring": "left ring finger",
+    "l-middle": "left middle finger",
+    "l-index": "left index finger",
+    "r-index": "right index finger",
+    "r-middle": "right middle finger",
+    "r-ring": "right ring finger",
+    "r-pinky": "right pinky",
+    "thumb": "thumb"
+  },
+  "hand": {
+    "left": "left",
+    "right": "right"
+  },
+  "banner": {
+    "corrupt": "Saved data could not be read, so a fresh start was made. A copy of the old data was kept on this device.",
+    "migrated": "Your earlier progress was brought over to the new version.",
+    "blocked": "Saving is blocked in this browser, so progress will be kept only until you close this tab.",
+    "update": "A new version of TypeCSF is ready. Your progress is kept.",
+    "updateNow": "Update now",
+    "offlineReady": "TypeCSF is ready to work offline.",
+    "offline": "You are offline. TypeCSF keeps working; only the suggestion form needs internet."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Free typing and Computer Science trainer",
+      "title": "Learn Computer Science while you learn to type",
+      "subtitle": "TypeCSF joins touch-typing practice with 30 Computer Science lessons and a 24-page handbook. Every minute of practice teaches you something real, in English, Dari or Pashto.",
+      "start": "Start learning",
+      "continue": "Continue where you stopped",
+      "about": "About the developer",
+      "previewTitle": "Today's typing line"
+    },
+    "stats": {
+      "lessons": "Lessons",
+      "pages": "Handbook pages",
+      "languages": "Languages",
+      "offline": "Works offline",
+      "yes": "Yes"
+    },
+    "features": {
+      "title": "Everything you need to practise",
+      "subtitle": "One calm place to build typing speed, accuracy and Computer Science knowledge.",
+      "lessons": {
+        "title": "30 typing lessons",
+        "text": "Five levels from computer basics to emerging technologies. Each lesson explains an idea, then you type it."
+      },
+      "handbook": {
+        "title": "A 24-page handbook",
+        "text": "Finish every lesson to unlock eight parts of real Computer Science explanations to type and study."
+      },
+      "keyboard": {
+        "title": "Guided on-screen keyboard",
+        "text": "See the next key, the right finger and the Shift key. It follows your real keyboard as you type."
+      },
+      "practice": {
+        "title": "Practice modes",
+        "text": "Home row, letters, words, sentences, symbols, code, timed tests and your own text."
+      },
+      "games": {
+        "title": "Games and quizzes",
+        "text": "Short challenges and 30 quiz questions make practice more fun without pressure."
+      },
+      "progress": {
+        "title": "Honest progress",
+        "text": "Speed, accuracy and trends from your own practice. No made-up numbers."
+      }
+    },
+    "how": {
+      "title": "How it works",
+      "s1": {
+        "title": "Pick a lesson",
+        "text": "Start with level 1 or search for any topic."
+      },
+      "s2": {
+        "title": "Read, then type",
+        "text": "Read the key ideas beside the typing area, then type the English text shown."
+      },
+      "s3": {
+        "title": "Watch yourself improve",
+        "text": "Your speed and accuracy are saved on this device and shown on the Dashboard."
+      }
+    },
+    "progress": {
+      "title": "Your progress, honestly measured",
+      "text": "TypeCSF measures what really happened in each run and shows nothing it cannot calculate.",
+      "b1": "Net WPM counts only correct characters.",
+      "b2": "Accuracy counts every key press, so a corrected mistake still shows.",
+      "b3": "Consistency shows how steady your speed was.",
+      "b4": "Everything stays in your browser. Nothing is sent anywhere."
+    },
+    "cs": {
+      "title": "Typing and Computer Science, together",
+      "text": "Typing is the first skill of every programmer. TypeCSF lets you build it while you learn what a computer, an algorithm, a network or a database really is.",
+      "topics": "Computer basics · Data and algorithms · Programming · Systems, networks and security · Emerging technologies"
+    },
+    "install": {
+      "title": "Install it like an app",
+      "text": "Add TypeCSF to your computer or phone and use it offline. Open Settings for the steps.",
+      "cta": "How to install"
+    },
+    "dev": {
+      "title": "Built by a student, for students",
+      "text": "TypeCSF was created by Wahidullah Hussaini, a student at Kabul Education University.",
+      "cta": "Meet the developer"
+    },
+    "contact": {
+      "title": "Have an idea or found a problem?",
+      "text": "Your suggestions help improve TypeCSF for every student. Write a message or chat on WhatsApp.",
+      "form": "Send a suggestion",
+      "wa": "Chat on WhatsApp"
+    }
+  },
+  "learn": {
+    "search": "Search {{total}} lessons and the handbook…",
+    "searchLabel": "Search lessons",
+    "clear": "Clear search",
+    "noMatch": "No topic matches \"{{q}}\".",
+    "levels": "Levels and lessons",
+    "lessonsLabel": "Lessons",
+    "progressLabel": "Curriculum progress",
+    "levelPill": "Level {{n}} · {{name}}",
+    "personalBest": "Personal best",
+    "doneCount": "{{done}} / {{total}} lessons done",
+    "finishAll": "Finish every lesson to open the handbook.",
+    "completed": "Completed",
+    "pageRead": "Page read",
+    "partOf": "Part {{n}} of {{total}}",
+    "pageOf": "Page {{n}} of {{total}}",
+    "partTagline": "Page {{n}} of {{total}} · {{subtitle}}",
+    "lockedTagline": "Part {{n}} of {{total}} · {{subtitle}} · locked",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "goPage": "Go to page {{n}}",
+    "pagesOfPart": "Pages of this part",
+    "englishNote": "The text you type is always English. The explanations are shown in your language.",
+    "locked": {
+      "eyebrow": "Level {{n}} · {{name}}",
+      "title": "The handbook is locked",
+      "text": "Finish all {{total}} lessons to unlock the 24-page CS Handbook. You have completed {{done}}, so {{left}} to go.",
+      "cta": "Continue lessons",
+      "toast": "The CS Handbook opens when all {{total}} lessons are complete",
+      "continueToast": "{{done}} of {{total}} lessons complete — keep going"
+    },
+    "about": {
+      "title": "What is the CS Handbook?",
+      "parts": "The parts",
+      "partsCount": "{{n}} parts",
+      "partLine": "{{title}} ({{pages}} pages) — {{summary}}"
+    },
+    "toolbar": {
+      "mode": "Run mode",
+      "lesson": "Lesson",
+      "s30": "30s",
+      "s60": "60s",
+      "endurance": "Endurance",
+      "pause": "Pause",
+      "resume": "Resume",
+      "finish": "Finish",
+      "restart": "Restart",
+      "finishTitle": "End this run now and see your results",
+      "restartTitle": "Restart (Tab)"
+    },
+    "stat": {
+      "label": "Live statistics",
+      "wpm": "WPM",
+      "accuracy": "Accuracy",
+      "time": "Time",
+      "left": "Left",
+      "mistakes": "Mistakes",
+      "best": "Best"
+    },
+    "overlay": {
+      "start": "Click here and start typing",
+      "hint": "A physical keyboard gives the best experience",
+      "bookStart": "Click here and type the page",
+      "bookHint": "Key concepts are listed beside the page",
+      "exampleStart": "Click to practise this example",
+      "exampleHint": "Press Tab to repeat it as often as you like",
+      "paused": "Paused",
+      "pausedHint": "Click here or press any key to continue. Your time is not counting."
+    },
+    "typingArea": "Typing area. Type the English text shown above.",
+    "caps": "Caps Lock looks like it is on.",
+    "pasteBlocked": "Pasting is disabled - this is a typing trainer",
+    "legend": {
+      "next": "Next key",
+      "home": "Home row",
+      "press": "Press {{tab}} to restart, {{esc}} to leave the typing area.",
+      "note": "Highlights show detected key presses. Your keyboard's lights are not controlled."
+    },
+    "hint": {
+      "finger": "Use your {{finger}}.",
+      "shift": "Hold {{side}} Shift with your {{side}} pinky.",
+      "space": "Press Space with either thumb."
+    },
+    "reference": {
+      "title": "Lesson notes",
+      "definition": "Definition",
+      "concepts": "Key concepts",
+      "examples": "Examples",
+      "tapExample": "tap one to type it",
+      "practiseExample": "Practise this example",
+      "exampleLoaded": "Example loaded — press Tab to repeat it as often as you like",
+      "drill": "Your drill",
+      "pageFocus": "Page focus",
+      "pageConcepts": "Key concepts on this page",
+      "termsCount": "{{n}} terms",
+      "yourPage": "Your page",
+      "charsCount": "{{n}} characters",
+      "aboutRun": "About this run",
+      "tips": "Tips",
+      "defaultAbout": "Type the text shown above.",
+      "tip1": "Accuracy first, speed second: slow and correct becomes fast and correct.",
+      "tip2": "Keep your eyes on the text, not on the keys.",
+      "tip3": "If you make a mistake, keep going or press Backspace, whichever feels natural.",
+      "source": "From {{title}} by {{author}} ({{year}}), {{source}}.",
+      "partInfo": "Part {{n}} of {{total}} · {{subtitle}}"
+    }
+  },
+  "results": {
+    "eyebrow": {
+      "time": "Time is up",
+      "early": "Run ended early",
+      "limit": "Challenge ended",
+      "game": "Game complete",
+      "practice": "Practice complete",
+      "page": "Page complete",
+      "example": "Example complete",
+      "lesson": "Lesson complete"
+    },
+    "title": {
+      "tooShort": "Not enough typed to score",
+      "flawless": "Flawless and fast",
+      "clean": "Beautifully clean run",
+      "solid": "Solid work",
+      "good": "Good effort - a little slower will help",
+      "accuracy": "Accuracy first, speed second"
+    },
+    "sub": {
+      "session": "{{label}} finished in {{time}}.",
+      "page": "Page {{n}} of {{total}} of \"{{title}}\" typed in {{time}}.",
+      "example": "You practised an example from {{title}}.",
+      "lesson": "You typed the {{title}} drill in {{time}}."
+    },
+    "label": {
+      "wpm": "Net WPM",
+      "raw": "Raw WPM",
+      "accuracy": "Accuracy",
+      "mistakes": "Mistakes",
+      "consistency": "Consistency",
+      "time": "Time"
+    },
+    "chart": "Chart of your speed over time",
+    "chartDesc": "Net speed (solid line) and raw speed (dashed line) for each second.",
+    "tryAgain": "Try again",
+    "nextLesson": "Next lesson",
+    "nextPage": "Next page",
+    "nextPart": "Next part",
+    "allPages": "All pages read",
+    "playAgain": "Play again",
+    "newText": "New text",
+    "endOfCurriculum": "You reached the end of the curriculum",
+    "endOfHandbook": "That was the last page of the handbook",
+    "lastPageToast": "That was the last page of the handbook — beautifully done",
+    "live": "{{title}}. {{wpm}} words per minute, {{acc}} percent accuracy.",
+    "keysToPractise": "Keys to practise:",
+    "space": "space",
+    "reviewTip": "Missing keys is normal. Try the Practice page to drill them.",
+    "keyConcept": "Key concept:",
+    "pageConcepts": "Key concepts on this page:",
+    "gameScore": "Game score: {{score}}",
+    "newGameBest": "a new best!",
+    "finishToScore": "(finish the text to score)",
+    "lessonToast": "Lesson complete — {{title}}",
+    "unlockedToast": "The CS Handbook is unlocked — it is open in the sidebar",
+    "unlockedNote": "The CS Handbook is open. Every lesson is complete, so the handbook pages are now waiting for you in the sidebar.",
+    "notScored": "A timed or early-ended run never changes your lesson record. Type the whole passage to save a score and complete the lesson.",
+    "notScoredPage": "A timed or early-ended run never changes your lesson record. Type the whole passage to save a score and mark the page as read.",
+    "exampleNotScored": "Example practice is not scored, so your lesson record stays untouched.",
+    "breakReminder": "You have been practising for {{n}} minutes. A short stretch break can help.",
+    "achievement": "Achievement unlocked: {{name}}"
+  },
+  "notes": {
+    "lesson": {
+      "first": "First score recorded: {{wpm}} wpm.",
+      "newBest": "New personal best for this lesson: {{wpm}} wpm (was {{prev}}).",
+      "stays": "Personal best stays at {{wpm}} wpm.",
+      "complete": "Lesson marked complete at {{acc}}% accuracy.",
+      "reach": "Reach {{acc}}% accuracy to mark this lesson complete."
+    },
+    "pace": {
+      "low": "Aim to type the sentence as one smooth phrase rather than word by word.",
+      "mid": "You can push toward {{wpm}} wpm while keeping accuracy above 97%.",
+      "high": "Excellent pace - now make it a habit at this speed."
+    },
+    "book": {
+      "first": "Page recorded at {{wpm}} wpm.",
+      "newBest": "New best for this page: {{wpm}} wpm (was {{prev}}).",
+      "stays": "Best for this page stays at {{wpm}} wpm.",
+      "marked": "Page marked as read.",
+      "partDone": "This part is finished — all {{total}} pages read.",
+      "partProgress": "{{read}} of {{total}} pages in this part read."
+    },
+    "session": {
+      "first": "First score recorded here: {{wpm}} wpm.",
+      "newBest": "New personal best here: {{wpm}} wpm (was {{prev}}).",
+      "stays": "Your best here stays at {{wpm}} wpm.",
+      "tooShort": "Type a little more next time and your results will be saved.",
+      "limit": "The mistake limit was reached, so the run ended. Try again a little slower.",
+      "early": "You ended this run early. The part you typed was still saved.",
+      "slow": "Slow down a little: accurate typing becomes fast typing with practice.",
+      "great": "Great control. Keep the same rhythm."
+    }
+  },
+  "practice": {
+    "title": "Practice",
+    "subtitle": "Pick a skill and type. Practice runs are saved to your Dashboard but never change your lesson progress.",
+    "letters": "Individual letters",
+    "lettersHint": "Choose a letter to drill words that use it.",
+    "startLetters": "Start letter drill",
+    "letterDrill": "Letter drill: {{l}}",
+    "timed": "Timed test",
+    "length": "Length",
+    "startTimed": "Start timed test",
+    "timedLabel": "Timed test ({{n}} s)",
+    "seconds": "{{n}} s",
+    "custom": "Custom text",
+    "customLabel": "Paste or write your own text",
+    "customPlaceholder": "Your own notes, a code snippet, a paragraph...",
+    "customNote": "Text is converted to characters you can type on a US keyboard (smart quotes become plain quotes, line breaks become spaces). Up to 1200 characters.",
+    "customStart": "Practise this text",
+    "customRun": "Your own text.",
+    "customEmpty": "Please enter at least a few characters to practise.",
+    "customAdjusted": "Your text was adjusted so it can be typed.",
+    "customShort": "Your text was adjusted so it can be typed and shortened to 1200 characters.",
+    "weak": "Your tricky keys",
+    "weakText": "Words with the keys you missed most: {{keys}}.",
+    "weakMeta": "Based on your own results",
+    "weakRun": "Words that contain the keys you missed most often.",
+    "modes": {
+      "homerow": {
+        "name": "Home row",
+        "desc": "Keys under your resting fingers: A S D F J K L ;"
+      },
+      "letters": {
+        "name": "Individual letters",
+        "desc": "Pick a letter and drill words that use it."
+      },
+      "words": {
+        "name": "Common words",
+        "desc": "Short Computer Science words."
+      },
+      "sentences": {
+        "name": "Sentences",
+        "desc": "Full sentences with capitals and punctuation."
+      },
+      "punctuation": {
+        "name": "Punctuation and capitals",
+        "desc": "Commas, periods, quotes, colons and capitals."
+      },
+      "symbols": {
+        "name": "Numbers and symbols",
+        "desc": "The number row and shifted symbols."
+      },
+      "vocab": {
+        "name": "CS vocabulary",
+        "desc": "Terms and definitions from the handbook."
+      },
+      "code": {
+        "name": "Programming",
+        "desc": "Single-line code snippets."
+      },
+      "timed": {
+        "name": "Timed test",
+        "desc": "Type as much as you can in 30, 60 or 120 seconds."
+      },
+      "custom": {
+        "name": "Custom text",
+        "desc": "Paste your own text. It is converted to typeable characters."
+      }
+    }
+  },
+  "games": {
+    "title": "Games",
+    "subtitle": "Short challenges that make practice fun. Scores stay on this device. There are no timers pressuring you to come back every day.",
+    "play": "Play",
+    "playAgain": "Play again",
+    "bestScore": "Best score {{score}} - played {{plays}}x",
+    "notPlayed": "Not played yet",
+    "doneToday": "done today",
+    "notDoneToday": "not done today",
+    "sprint": {
+      "name": "Typing Sprint",
+      "desc": "Type as much as you can in 60 seconds.",
+      "rule": "Score = WPM x accuracy / 10.",
+      "run": "You have 60 seconds. Accuracy counts, so stay calm."
+    },
+    "accuracy": {
+      "name": "Accuracy Challenge",
+      "desc": "Type a sentence with at most 3 mistakes.",
+      "rule": "Finish with 3 or fewer mistakes. Score = accuracy x 10 + WPM.",
+      "run": "The run ends if you make more than 3 mistakes. Slow and steady wins."
+    },
+    "code": {
+      "name": "Code Typing Challenge",
+      "desc": "Type real code snippets with brackets and symbols.",
+      "rule": "Finish the snippets. Score = WPM x accuracy / 10.",
+      "run": "Programmers type symbols all day. Take your time with the brackets."
+    },
+    "daily": {
+      "name": "Daily Practice Challenge",
+      "desc": "A new text each day, the same for everyone.",
+      "rule": "Complete it once a day if you like. There are no streak penalties.",
+      "run": "Today: {{day}}"
+    }
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Check what you know. Every answer comes with a short explanation, so a wrong answer is a chance to learn.",
+    "topic": "Topic",
+    "mixed": "Mixed",
+    "start": "Start 5 questions",
+    "so_far": "So far: {{correct}} of {{answered}} answers correct ({{pct}}%).",
+    "question": "Question {{n}} of {{total}} - {{topic}}",
+    "correct": "Correct.",
+    "wrong": "Not quite.",
+    "correctMark": "Correct",
+    "yourAnswer": "Your answer",
+    "next": "Next question",
+    "results": "See results",
+    "complete": "Quiz complete",
+    "correctLabel": "correct",
+    "scoreLabel": "score",
+    "perfect": "Perfect. Great knowledge.",
+    "good": "Good work. Review the explanations you missed and try again.",
+    "start2": "A good start. Reading the lessons and trying again will help a lot.",
+    "again": "Another quiz",
+    "backToLessons": "Back to lessons",
+    "topics": {
+      "basics": "Computer basics",
+      "programming": "Programming",
+      "web": "Web and internet",
+      "data": "Data and networks",
+      "security": "Security and ethics"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Real numbers from your own practice. Everything is stored on this device only.",
+    "emptyTitle": "Nothing to show yet",
+    "emptyText": "Finish your first lesson or practice run and your progress will appear here.",
+    "cards": {
+      "time": "time typing",
+      "runs": "runs finished",
+      "avgWpm": "average WPM (last {{n}})",
+      "bestWpm": "best WPM",
+      "avgAcc": "average accuracy",
+      "lessons": "lessons complete",
+      "pages": "handbook pages read",
+      "quiz": "quiz answers correct",
+      "days": "days practised"
+    },
+    "wpmChart": "WPM, last {{n}} runs",
+    "accChart": "Accuracy, last {{n}} runs",
+    "wpmAlt": "Line chart of words per minute across your last runs",
+    "accAlt": "Line chart of accuracy across your last runs",
+    "needThree": "Finish 3 runs to see your speed and accuracy trends.",
+    "oldest": "oldest",
+    "latest": "latest",
+    "keys": "Keys to practise",
+    "keysText": "The keys you have missed most often, over all your runs. Everyone has some.",
+    "noMistakes": "No mistakes recorded yet.",
+    "recent": "Recent runs",
+    "when": "When",
+    "what": "What",
+    "wpm": "WPM",
+    "accuracy": "Accuracy",
+    "time": "Time",
+    "goals": "Your next goals",
+    "goal1": "Finish today's lesson with at least {{acc}}% accuracy.",
+    "goal2": "Practise your tricky keys for five minutes.",
+    "goal3": "Take the Daily Practice Challenge.",
+    "suggest": "Suggested next activity",
+    "suggestLesson": "Continue with: {{title}}",
+    "suggestHandbook": "Continue the handbook: {{title}}",
+    "suggestPractice": "Open Practice and try the timed test.",
+    "achievements": "Achievements ({{n}} of {{total}})",
+    "unlocked": "Unlocked {{date}}.",
+    "locked": "Locked."
+  },
+  "achievements": {
+    "first-lesson": {
+      "name": "First lesson",
+      "desc": "Complete one lesson."
+    },
+    "five-lessons": {
+      "name": "Getting going",
+      "desc": "Complete 5 lessons."
+    },
+    "all-lessons": {
+      "name": "Curriculum complete",
+      "desc": "Complete every lesson."
+    },
+    "handbook": {
+      "name": "Handbook reader",
+      "desc": "Type a page of the CS Handbook."
+    },
+    "wpm-30": {
+      "name": "Steady typist",
+      "desc": "Reach 30 WPM with 90% accuracy or better."
+    },
+    "wpm-50": {
+      "name": "Fast and accurate",
+      "desc": "Reach 50 WPM with 90% accuracy or better."
+    },
+    "clean-run": {
+      "name": "Clean run",
+      "desc": "Type 50 or more characters at 100% accuracy."
+    },
+    "ten-sessions": {
+      "name": "Regular practice",
+      "desc": "Finish 10 typing runs."
+    },
+    "hour": {
+      "name": "One hour",
+      "desc": "Type for one hour in total."
+    },
+    "first-game": {
+      "name": "Game on",
+      "desc": "Play any game."
+    },
+    "daily": {
+      "name": "Daily challenger",
+      "desc": "Complete a Daily Practice Challenge."
+    },
+    "first-quiz": {
+      "name": "Quiz taker",
+      "desc": "Finish a quiz."
+    },
+    "perfect-quiz": {
+      "name": "Perfect quiz",
+      "desc": "Score 100% in a quiz."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Changes apply straight away and are saved on this device.",
+    "theme": {
+      "name": "Theme",
+      "hint": "Follow your device or choose light or dark.",
+      "system": "Same as device",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "motion": {
+      "name": "Reduce motion",
+      "hint": "Turns off animations such as pulsing and sliding.",
+      "system": "Same as device",
+      "on": "Reduce",
+      "off": "Allow animations"
+    },
+    "sound": {
+      "name": "Typing sounds",
+      "hint": "Soft key sounds made in your browser. Off by default."
+    },
+    "keyboard": {
+      "name": "On-screen keyboard",
+      "hint": "Show the keyboard under the typing area."
+    },
+    "fingers": {
+      "name": "Finger guidance",
+      "hint": "Colour the keys by finger and say which finger to use."
+    },
+    "difficulty": {
+      "name": "Lesson difficulty",
+      "hint": "Accuracy needed to complete a lesson.",
+      "relaxed": "Relaxed (85%)",
+      "standard": "Standard (90%)",
+      "strict": "Strict (95%)"
+    },
+    "breaks": {
+      "name": "Break reminder",
+      "hint": "A gentle message after this many minutes of typing. Optional.",
+      "off": "Off",
+      "m15": "Every 15 minutes",
+      "m20": "Every 20 minutes",
+      "m30": "Every 30 minutes"
+    },
+    "install": {
+      "title": "Install and offline",
+      "offline": "Offline:",
+      "checking": "Checking...",
+      "ready": "Ready. TypeCSF works without internet.",
+      "unsupported": "Not available here (needs https:// or localhost).",
+      "installed": "Installed: you are using the installed app.",
+      "button": "Install TypeCSF",
+      "howTo": "How to install",
+      "chrome": "Chrome or Edge (computer): click the install icon in the address bar, or the menu, then \"Install TypeCSF\".",
+      "android": "Android Chrome: menu, then \"Install app\" or \"Add to Home screen\".",
+      "ios": "iPhone or iPad (Safari): Share, then \"Add to Home Screen\".",
+      "note": "Installing needs the site to be served over https:// or http://localhost. It does not work when opening the file directly. Support differs between browsers (Firefox on computers does not offer installing).",
+      "toast": "TypeCSF installed."
+    },
+    "data": {
+      "title": "Your data",
+      "okText": "Your progress lives only in this browser (saving works). Export a backup to move it to another device.",
+      "blockedText": "Your progress lives only in this browser (saving is blocked, so progress will be lost when you close the tab). Export a backup to move it to another device.",
+      "export": "Export progress",
+      "import": "Import progress",
+      "reset": "Reset progress...",
+      "exported": "Progress exported.",
+      "importTitle": "Replace your progress?",
+      "importText": "Importing {{file}} replaces the progress and settings currently saved on this device.",
+      "importBtn": "Import",
+      "imported": "Progress imported.",
+      "notTypecsf": "This file does not look like TypeCSF data.",
+      "badJson": "That file could not be read as JSON.",
+      "resetTitle": "Reset progress?",
+      "resetIntro": "This deletes, on this device only:",
+      "r1": "completed lessons and personal bests",
+      "r2": "handbook pages read (the handbook locks again)",
+      "r3": "run history, mistake counts and dashboard data",
+      "r4": "achievements, game scores, daily results and quiz results",
+      "resetTip": "Tip: use Export progress first if you may want it back.",
+      "resetKeep": "Reset, keep my settings",
+      "resetAll": "Reset everything",
+      "resetDone": "Progress reset."
+    }
+  },
+  "about": {
+    "title": "About the developer",
+    "subtitle": "Who made TypeCSF, and how to reach the developer.",
+    "measure": {
+      "title": "How TypeCSF measures your typing",
+      "wpm": "Net WPM = (correct characters / 5) / minutes. One word counts as 5 characters.",
+      "raw": "Raw WPM = (all typed characters / 5) / minutes.",
+      "cpm": "CPM (characters per minute) = correct characters / minutes.",
+      "acc": "Accuracy = (keystrokes - wrong keystrokes) / keystrokes. A wrong key stays counted even if you fix it with Backspace, so accuracy reflects your first attempt. Fixing it still helps your net WPM.",
+      "cons": "Consistency shows how steady your speed was during the run.",
+      "done": "A lesson is complete when you finish it with at least your chosen accuracy (Settings, default 90%).",
+      "privacy": "Privacy: everything is saved only in this browser. Nothing is sent anywhere. The only exception is a suggestion you choose to send with the form."
+    },
+    "tech": "Built with",
+    "techList": "React, Tailwind CSS, localStorage, Web Audio API, Service Worker (PWA)"
+  },
+  "dev": {
+    "name": "Wahidullah Hussaini",
+    "role": "Developer of TypeCSF",
+    "education": "Student at Kabul Education University",
+    "project": "Project",
+    "projectName": "TypeCSF",
+    "projectText": "TypeCSF, a Computer Science and typing learning web application.",
+    "bio": "I am Wahidullah Hussaini, a student at Kabul Education University. TypeCSF is an educational project that I built to help learners improve their typing skills and learn Computer Science concepts in one place. I would be happy to hear your suggestions.",
+    "photoAlt": "Portrait of Wahidullah Hussaini, developer of TypeCSF",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "sendSuggestion": "Send a suggestion",
+    "chat": "Chat on WhatsApp",
+    "cardLabel": "Developer profile",
+    "tapHint": "Tap the card to see contact options"
+  },
+  "wa": {
+    "tooltip": "Contact the Developer on WhatsApp",
+    "label": "Contact the developer on WhatsApp (opens in a new tab)",
+    "message": "Hello, I have a suggestion about the TypeCSF web application.",
+    "bubble": "Questions or ideas? Message the developer.",
+    "closeBubble": "Hide this message"
+  },
+  "contact": {
+    "title": "Send a suggestion",
+    "subtitle": "Tell the developer what to improve: a feature, a problem you found, a translation correction or any idea. Every message is read.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "category": "Suggestion category",
+      "subject": "Subject",
+      "message": "Your message or suggestion",
+      "consent": "I understand that my message and the details I enter will be sent to the developer by email so that he can read and answer them.",
+      "optional": "(optional)",
+      "required": "(required)",
+      "count": "{{n}} / {{max}}",
+      "send": "Send suggestion",
+      "sending": "Sending…",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "you@example.com",
+      "subjectPlaceholder": "A short title",
+      "messagePlaceholder": "Write your suggestion here…",
+      "emailHelp": "Only needed if you would like an answer.",
+      "privacy": "Please do not include passwords or private information. Your message is sent only when you press the button."
+    },
+    "categories": {
+      "feature": "Feature request",
+      "bug": "Bug report",
+      "design": "Design or usability feedback",
+      "content": "Educational content",
+      "translation": "Translation correction",
+      "other": "Other"
+    },
+    "errors": {
+      "summary": "Please correct the highlighted fields.",
+      "messageRequired": "Please write your message.",
+      "messageShort": "Your message is too short. Please write at least {{n}} characters.",
+      "messageLong": "Your message is too long. The limit is {{n}} characters.",
+      "emailInvalid": "This email address does not look right.",
+      "nameLong": "The name is too long (maximum {{n}} characters).",
+      "subjectLong": "The subject is too long (maximum {{n}} characters).",
+      "consentRequired": "Please tick the box to confirm you agree.",
+      "categoryInvalid": "Please choose a category.",
+      "wait": "Please wait {{n}} seconds before sending another message.",
+      "offline": "You are offline. Please connect to the internet and try again.",
+      "notConfigured": "The suggestion form is not set up on this website yet, so nothing was sent. Please use WhatsApp or the email address below.",
+      "failed": "Your message could not be sent. It is still in the form, so you can try again.",
+      "tooMany": "Too many messages were sent. Please try again later."
+    },
+    "success": "Thank you! Your suggestion was sent to the developer.",
+    "alt": "Other ways to reach the developer",
+    "orEmail": "Or write directly to {{email}}",
+    "emailLink": "Open your email app"
+  },
+  "footer": {
+    "credit": "Designed and developed by Wahidullah Hussaini, Kabul Education University.",
+    "about": "About the developer",
+    "contact": "Send a suggestion",
+    "privacy": "Your progress stays on this device.",
+    "rights": "TypeCSF · Educational project",
+    "quick": "Explore",
+    "reach": "Contact"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist. Use the menu or go back home.",
+    "cta": "Back to home"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "text": "TypeCSF hit an unexpected problem. Your saved progress is safe. Reload the page to continue.",
+    "reload": "Reload"
+  }
+}
